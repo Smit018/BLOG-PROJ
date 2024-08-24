@@ -36,6 +36,7 @@ const [loading, setLoading] = useState(true);
             image={blog.image}
             username={blog.user.username}
             time={blog.createdAt}
+            comments={blog?.comments}
           />
         ))
       ) : (
