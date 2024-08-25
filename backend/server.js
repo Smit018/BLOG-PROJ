@@ -20,7 +20,7 @@ const app = express();
 
 //middelwares
 app.use(cors({
-  origin:["https://deploy-mern-1whq.vercel.app"],
+  origin:[""],
   methods:["GET","POST","PUT","DELETE"],
   credentials:true
 }));
@@ -36,7 +36,7 @@ const PORT = process.env.PORT || 8080;
 //listen
 app.listen(PORT, () => {
   console.log(
-    `Server Running on ${process.env.DEV_MODE} mode port no ${PORT}`.bgCyan
+    `Server Running on port no ${PORT}`.bgCyan
       .white
   );
 });

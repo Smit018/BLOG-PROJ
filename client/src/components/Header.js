@@ -68,7 +68,7 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="sticky" sx={{ backgroundColor: theme.palette.primary.main }}>
+    <AppBar position="sticky" sx={{ backgroundColor: "black",height:"100px",justifyContent:"center" }}>
       <Toolbar>
         <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
           My Blog APP
@@ -133,7 +133,7 @@ const Header = () => {
             </>
           ) : (
             <Button
-              sx={{ margin: 1 }}
+              sx={{ margin: 1,backgroundColor:"red" }}
               variant="outlined"
               color="inherit"
               onClick={handleLogout}

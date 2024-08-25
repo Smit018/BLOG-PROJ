@@ -89,6 +89,7 @@ export default function BlogCard({
         "&:hover": {
           boxShadow: "10px 10px 20px rgba(0, 0, 0, 0.2)",
         },
+        backgroundColor: "#FFF0F5",
       }}
     >
       {isUser && (
